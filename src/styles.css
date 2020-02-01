@@ -4,6 +4,7 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    overflow: hidden;
 }
 
 .container {
@@ -23,7 +24,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-left: 1em;
-    background-color: #f8f8f8;
+    background-color: #dbdbdb;
     height: 54px;
 }
 .section-title {
@@ -58,29 +59,56 @@ header nav ul li{
 main {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    height: 93vh;
+    height: 90vh;
 }
 
 .super-image {
-    background-color: #dbdbdb;
+    background-color: #f8f8f8;
 }
 .content-body {
     display: grid;
     grid-template-rows: 3fr 1fr;
 }
 .section-body {
-    background-color: #f8f8f8;
+    background-color: #dbdbdb;
+    color: #5e5e5e;
+    padding: 1em;
+    height: 93%;
+}
+.section-content{
+    background-color: #ebebeb;
+    border: 1px solid lightgray;
+    color: #5e5e5e;
+    padding: 1em;
+    height: 92%;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 .misc-body {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr;
+    background-color: #dbdbdb;
+    padding: 1em;
 }
 .notes-body {
-    background-color: #86a6df;
+    background-color: #ebebeb;
+    border: 1px solid lightgray;
+    color: #5e5e5e;
+    padding: 1em;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
-.tech-body {
-    background-color: #5068a9;
-}
-img {
+
+.super-image img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:100%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    width: 30px;
+    padding: 5px;
 }

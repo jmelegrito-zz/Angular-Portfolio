@@ -8,8 +8,8 @@ import { AboutComponent } from './about/about.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'projects', component: ProjectsComponent },
-  { path: 'files', component: FilesComponent },
-  { path: 'about', component: AboutComponent },
+  { path: 'files', component: FilesComponent, data: {animation : 'isLeft'} },
+  { path: 'about', component: AboutComponent, data: {animation : 'isRight'} },
 ];
 
 @NgModule({
