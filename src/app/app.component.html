@@ -1,19 +1,19 @@
 <header>
     <div class="navbar">
-        <a href="#" class="logo">John Melegrito</a>
+        <a href="#" class="logo"> <img src="../assets/logo.jpg"> John Melegrito</a>
         <nav>
             <ul>
                 
                     <li><a href="#" routerLink="/" (click)="setSection('Home')">Home</a></li>
                     <li><a href="#" routerLink="/projects" (click)="setSection('Projects')">Projects</a></li>
-                    <li><a href="#" routerLink="/files" (click)="setSection('Files')">Files</a></li>
+                    <li><a href="#" routerLink="/experience" (click)="setSection('Experience')">Experience</a></li>
                     <li><a href="#" routerLink="/about" (click)="setSection('About')">About</a></li>
                
             </ul>
         </nav>
     </div>
     <div class="section-title">
-        {{ section }}
+        <div>{{ section }}</div>
     </div>
 </header>
 
