@@ -84,6 +84,17 @@ main {
     grid-template-columns: 4fr 1fr;
     border-radius: 5px;
 }
+.section-content-experience{
+    background-color: #ebebeb;
+    border: 1px solid lightgray;
+    color: #5e5e5e;
+    padding: 1em;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 5px;
+    margin-bottom: -10px;
+}
 .misc-body {
     background-color: #dbdbdb;
     padding: 1em;
@@ -97,6 +108,42 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border-radius: 5px;
+}
+.notes-body-experience {
+    background-color: #ebebeb;
+    border: 1px solid lightgray;
+    color: #5e5e5e;
+    padding: 8px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+.notes-body-project {
+    background-color: #ebebeb;
+    border: 1px solid lightgray;
+    color: #5e5e5e;
+    padding: 3px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+.notes-body-experience > i {
+    font-size: 35px;
+}
+.notes-body-experience > .bigger {
+    font-size: 60px;
+}
+.notes-body-project > i {
+    font-size: 35px;
+}
+.notes-body-project > .bigger {
+    font-size: 60px;
 }
 .notes-body a:link, a:visited {
     text-decoration: none;
@@ -153,6 +200,9 @@ main {
 .section-head {
     margin-top: -10px;
 }
+.sub-section-head {
+    margin-top: -15px;
+}
 .about-logo {
     width: 20px;
 }
@@ -169,4 +219,55 @@ main {
 hr{
     margin-top: -15px;
     margin-bottom: 20px;
+}
+.proj-desc > hr {
+    margin: 5px;
+}
+.exp-list > li {
+    margin-top: -10px;
+}
+.project-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ebebeb;
+    border: 1px solid lightgray;
+    color: #5e5e5e;
+    padding: 10px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    margin-bottom: -10px;
+}
+.project-content-tech {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.proj-box {
+    border: solid 1px black;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.proj-vid {
+    width: 175px;
+}
+.proj-logo {
+    width: 100px;
+}
+.proj-desc {
+    padding-bottom: 10px;
+}
+.proj-app {
+    padding-bottom: 10px;
+}
+.button-link {
+    text-decoration: none;
+    color: #324e7b;
+    font-weight: bold;
+    font-size: 14px;
+}
+.proj-link {
+    padding: 5px;
+
 }

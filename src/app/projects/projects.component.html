@@ -4,12 +4,34 @@
     </div>
     <div class="content-body">
         <div class="section-body" @slideLeft>
-            <div class="section-content">
-            Projects Body</div>
+            <div class="project-content">
+                <div class="proj-box" *ngFor="let project of projects">
+                    <div><img src="{{project.logo}}" class="proj-logo"></div>
+                    <div class="proj-title"><h3>{{project.title}}</h3></div>
+                    <div class="proj-desc">{{project.description}}
+                        <hr>
+                    </div>
+                    <div class="proj-app">{{project.app}}</div>
+                    <div><img src="{{project.video}}" class="proj-vid"></div>
+                    <button class="proj-link"><a href="{{project.link}}" class="button-link">Check the Project</a></button>
+                </div>
+
+
+           </div>
         </div>
         <div class="misc-body" @slideUp>
-            <div class="notes-body">
-                Notes Body
+            <div class="notes-body-project">
+                Technologies used: 
+                <i class="devicon-html5-plain-wordmark"></i>
+                <i class="devicon-css3-plain-wordmark"></i>
+                <i class="devicon-javascript-plain"></i>
+                <i class="devicon-jquery-plain-wordmark"></i>
+                <i class="devicon-nodejs-plain-wordmark bigger"></i>
+                <i class="devicon-postgresql-plain-wordmark"></i>
+                <i class="devicon-sequelize-plain-wordmark bigger"></i>
+                <i class="devicon-bootstrap-plain-wordmark"></i>
+                <img src="../assets/jqueryuilogo.png" width="35px">
+                <p><strong>EJS</strong></p>
             </div>
         </div>
     </div>
