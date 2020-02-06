@@ -16,8 +16,8 @@ export class ProjectsComponent implements OnInit {
   projects =  [
     {
       title: "The Game Catalog",
-      description: "A web application that uses a JavaScript library (jQuery UI), a CSS framework (Bootstrap), and two remote APIs (GiantBomb API and Youtube API).",
-      app: "It's a Video Game Catalog where you can see the games for each console for a specific month/year.",
+      description: "A web application that uses a JavaScript library (jQuery UI), a CSS framework (Bootstrap), two remote APIs (GiantBomb and Youtube API). Deployed on Firebase.",
+      app: "It's a video game catalog where you can see the games for each console for a specific month/year.",
       link: "https://thegamecat-1e92e.web.app/",
       video: "../assets/gamecat.gif",
       logo: "../assets/gamecat.jpg",
