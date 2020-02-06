@@ -69,11 +69,13 @@ main {
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
+
 .section-body {
     background-color: #dbdbdb;
     color: #5e5e5e;
     padding: 1em;
 }
+
 .section-content{
     background-color: #ebebeb;
     border: 1px solid lightgray;
@@ -133,6 +135,15 @@ main {
     border-radius: 5px;
     margin-top: -10px;
 }
+.notes-body-home {
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.notes-home {
+    margin-left: 30px;
+}
 .notes-body-experience > i {
     font-size: 35px;
 }
@@ -144,6 +155,17 @@ main {
 }
 .notes-body-project > .bigger {
     font-size: 60px;
+}
+.notes-body-home > i {
+    font-size: 35px;
+}
+.notes-body-home > .bigger {
+    font-size: 60px;
+}
+a {
+    text-decoration: none;
+    color: #324e7b;
+    font-weight: bold;
 }
 .notes-body a:link, a:visited {
     text-decoration: none;
