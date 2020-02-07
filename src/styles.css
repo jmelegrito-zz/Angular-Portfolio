@@ -241,8 +241,14 @@ hr{
 .section-head {
     margin-top: -10px;
 }
+.exp-section-head {
+    margin-top: -10px;
+    font-weight: bold;
+}
 .sub-section-head {
-    margin-top: -15px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    font-weight: bold;
 }
 .section-content-experience{
     background-color: #ebebeb;
@@ -272,6 +278,84 @@ hr{
     border-radius: 5px;
     margin-top: -10px;
 }
+.exp-list > li {
+    margin-top: -10px;
+}
+
+/* @media only screen and (max-width: 767px) {
+    header {
+        margin-top: 2px;
+    }
+    main {
+        display: grid;
+        grid-template-rows: 1fr 3fr;
+        height: 100vh;
+        width: 100vw;
+    }
+    .super-image {
+        background-color: #f8f8f8;
+        overflow: hidden;
+    }
+    .super-image img {
+        display: flex;
+        align-items: center;
+    }
+    .content-body {
+        width: 100vw;
+    }
+    .section-body {
+        width: 100%;
+    }
+    .section-content-experience {
+        width: 80%;
+    }
+    .section-content {
+        width: 100%;
+    }
+    .project-content {
+        width: 87%;
+    }
+
+        .about-logo {
+        width: 20px;
+    }
+    .image-container {
+        display: flex;
+        align-items: flex-start;
+    }
+    .about-image {
+        width: 150px;
+        margin-left: 20px;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+        border-radius: 5px;
+    }
+    .notes-body {
+        margin-top: -10px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .notes-body-experience {
+        width: 92%;
+        margin-left: -10px;
+    }
+    .image-m {
+        display: none;
+    }
+    .image-s {
+        display: none;
+    }
+    .info-m {
+        display: flex;
+        flex-flow: column;
+    }
+    .row-organize {
+        margin-top: -30px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        width: 450px;
+    }
+
+} */
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
     main {
@@ -343,8 +427,6 @@ hr{
         box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
         border-radius: 5px;
     }
-    .exp-list > li {
-        margin-top: -10px;
-    }
+
 }
 
