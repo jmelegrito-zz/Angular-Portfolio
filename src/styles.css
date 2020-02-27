@@ -283,28 +283,34 @@ hr{
 }
 
 @media only screen and (max-width: 767px) {
-    .navbar {
-        width: 100vw;
+    .navbar nav {
+        margin-left: -30px;
+    }
+    .navbar nav {
+        width: 100%;
+        
+        padding-top: 5px;
     }
     main {
         display: grid;
         grid-template-rows: 1fr 3fr;
-        height: 100vh;
-        width: 100vw;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
     }
     .super-image {
         background-color: #f8f8f8;
         overflow: hidden;
         height: 100px;
-        width: 767px;
+        width: 100%;
     }
     .super-image img {
         display: flex;
         align-items: center;
-        width: 100vw;
+        width: 100%;
     }
     .content-body {
-        width: 100vw;
+        width: 100%;
     }
     .section-body {
         width: 100%;
@@ -313,17 +319,26 @@ hr{
         width: 100%;
     }
     .section-content-experience {
-        width: 90%;
+        width: 80%;
     }
     .section-content {
-        width: 90%;
+        width: 80%;
         grid-template-columns: 1fr;
     }
-
-    .project-content {
-        width: 90%;
+    .section-content > div {
+        width: 80%;
     }
-
+    .section-content-info {
+        width: 69%;
+    }
+    .project-content {
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+    }
+    .proj-box {
+        width: 80%;
+    }
     .about-logo {
         width: 20px;
     }
@@ -340,10 +355,24 @@ hr{
     .notes-body {
         margin-top: -10px;
         grid-template-columns: 1fr 1fr;
+        width: 80%;
+        display: flex;
+        flex-flow: column;
+    }
+    .notes-home {
+        margin-left: 0;
     }
     .notes-body-experience {
-        width: 92%;
+        width: 100%;
         margin-left: -10px;
+        display: flex;
+        flex-flow: wrap;
+    }
+    .notes-body-project {
+        width: 100%;
+        margin-left: -10px;
+        display: flex;
+        flex-flow: wrap;
     }
     .image-m {
         display: none;
@@ -354,6 +383,7 @@ hr{
     .info-m {
         display: flex;
         flex-flow: column;
+        width: 73%;
     }
     .row-organize {
         margin-top: -30px;
