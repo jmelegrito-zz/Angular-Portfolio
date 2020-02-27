@@ -7,21 +7,28 @@
             <div class="project-content">
                 <div class="proj-box" *ngFor="let project of projects">
                     <div><img src="{{project.logo}}" class="proj-logo"></div>
-                    <div class="proj-title"><h3>{{project.title}}</h3></div>
+                    <div class="proj-title">
+                        <h3>{{project.title}}</h3>
+                    </div>
                     <div class="proj-desc">{{project.description}}
                         <hr>
                     </div>
                     <div class="proj-app">{{project.app}}</div>
                     <div><img src="{{project.video}}" class="proj-vid"></div>
-                    <button class="proj-link"><a href="{{project.link}}" class="button-link">Check the Project</a></button>
+                    <div>
+                        <button class="proj-link"><a href="{{project.link}}" class="button-link">Visit the
+                                Project</a></button>
+                        <button class="proj-link"><a href="{{project.repo}}" class="button-link">Visit the
+                                Repo</a></button>
+                    </div>
                 </div>
 
 
-           </div>
+            </div>
         </div>
         <div class="misc-body" @slideUp>
             <div class="notes-body-project">
-                Technologies used: 
+                Technologies used:
                 <i class="devicon-html5-plain-wordmark"></i>
                 <i class="devicon-css3-plain-wordmark"></i>
                 <i class="devicon-javascript-plain"></i>

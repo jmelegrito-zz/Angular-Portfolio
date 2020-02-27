@@ -21,7 +21,8 @@ export class ProjectsComponent implements OnInit {
       link: "https://thegamecat-1e92e.web.app/",
       video: "../assets/gamecat.gif",
       logo: "../assets/gamecat.jpg",
-      tech: ''
+      tech: '',
+      repo: "https://github.com/jmelegrito/Phase-1-Group-Project"
     },
     {
       title: "The Stand App",
@@ -30,7 +31,8 @@ export class ProjectsComponent implements OnInit {
       link: "https://standapplication.herokuapp.com",
       video: "../assets/standapp.gif",
       logo: "../assets/standapp.png",
-      tech:''
+      tech:'',
+      repo: "https://github.com/jmelegrito/stand-app"
     }
   ]
 

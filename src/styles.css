@@ -295,6 +295,8 @@ hr{
     .super-image {
         background-color: #f8f8f8;
         overflow: hidden;
+        height: 100px;
+        width: 767px;
     }
     .super-image img {
         display: flex;
