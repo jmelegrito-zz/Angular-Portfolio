@@ -283,12 +283,12 @@ hr{
 }
 
 @media only screen and (max-width: 767px) {
-    .navbar nav {
-        margin-left: -30px;
+    .navbar {
+        width: 94%;
     }
     .navbar nav {
         width: 100%;
-        
+        margin-left: -30px;
         padding-top: 5px;
     }
     main {
@@ -329,7 +329,7 @@ hr{
         width: 80%;
     }
     .section-content-info {
-        width: 69%;
+        width: 65%;
     }
     .project-content {
         display: flex;
@@ -383,7 +383,7 @@ hr{
     .info-m {
         display: flex;
         flex-flow: column;
-        width: 73%;
+        width: 70%;
     }
     .row-organize {
         margin-top: -30px;
